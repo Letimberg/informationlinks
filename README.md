@@ -9,7 +9,9 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-aprendizado">Aprendizado</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
+  
 </p>
 
 <p align="center">
@@ -26,22 +28,46 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML e CSS
-- JavaScript
-- Git e Github
-- Figma
+-   ⛛. HTML e CSS
+-   ⛛. JavaScript
+-   ⛛. Git e Github
+-   ⛛. Figma
 
 ## 💻 Projeto
 
 O DevLinks é um agregador de links para usar como cartão de visitas online.
 
-- [Acesse o projeto finalizado, online](https://maykbrito.github.io/devlinks)
+-   [Acesse o projeto finalizado, online](https://letimberg.github.io/informationlinks/)
 
-- [Assistir aulas](https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito)
+-   [Assistir aulas](https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito)
 
 ## 🔖 Layout
 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1187422022288947321). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+
+## 📚 Aprendizado
+
+Neste projeto, adquiri conhecimento sobre o uso da função "toggle". Com essa função, é possível refatorar o código de forma a reduzir a necessidade de utilizar estruturas condicionais do tipo IF / ELSE.
+
+Trecho código IF /ELSE
+
+<pre>
+  const html = document.documentElement
+
+  if (html.classList.contains("light")) {
+      html.classList.remove("light")
+  } else {
+      html.classList.add("light")
+  }
+</pre>
+
+Código refatorado com a função toggle
+
+<pre>
+  const html = document.documentElement
+  
+  html.classList.toggle("light")
+</pre>
 
 ## :memo: Licença
 
