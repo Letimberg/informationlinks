@@ -10,6 +10,7 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-aprendizado">Aprendizado</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-crescimento">Crescimento</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
   
 </p>
@@ -68,6 +69,19 @@ Código refatorado com a função toggle
   
   html.classList.toggle("light")
 </pre>
+
+## 📊 Crescimento
+
+Após a conclusão do projeto, um desafio é lançado visando o crescimento e a busca pelo próximo nível.
+
+#### Nesse sentido, foram implementadas as seguintes melhorias:
+
+-   Foi adicionado um botão com a informação do tipo sanguíneo.
+-   Uma tabela informativa sobre as doações sanguíneas foi criada, esclarecendo quem pode doar para quem.
+-   Além disso, foi desenvolvida uma funcionalidade de "mouseover" e "mouseout", que ao passar o mouse sobre determinada área, a tabela que detalha as doações sanguíneas é exibida.
+<p align="center">
+    <img alt="projeto DevLinks" src=".github/tabela-aborh.png" width="100%">
+</p>
 
 ## :memo: Licença
 
