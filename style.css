@@ -58,27 +58,59 @@ body * {
 }
 
 #aborh {
+    position: relative;
+    width: 1px;
+    margin: 0 auto;
+    padding: 4px auto;
     text-align: center;
-    line-height: 40px;
-    background: var(--surface-color);
-
-    width: 40px;
-    height: 40px;
-    border-radius: 9999px;
-    border: 1px solid var(--stroke-color);
-
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-
-    position: absolute;
-    top: 18%;
-    left: 1;
-    z-index: 1;
 }
 
-#aborh:hover {
+#aborh button {
+    width: 35px;
+    height: 30px;
+    background: var(--surface-color);
+    border: 1px solid var(--stroke-color);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 9999px;
+
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 1;
+    transform: translateY(-90%);
+    cursor: pointer;
+}
+
+#aborh button:hover {
     outline: 8px solid var(--highlight-color);
     cursor: pointer;
+}
+
+#aborhTable {
+    display: none;
+    position: absolute;
+
+    background: var(--surface-color);
+    border: 1px solid var(--stroke-color);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    z-index: 2;
+}
+
+#aborhTable thead th {
+    padding: 10px 70px 10px 70px;
+    text-align: center;
+}
+#aborhTable td {
+    text-align: center;
+}
+
+#aborhTable th,
+#aborhTable td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid var(--stroke-color);
 }
 
 /* switch */
