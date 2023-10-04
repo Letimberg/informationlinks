@@ -78,7 +78,7 @@ Após a conclusão do projeto, um desafio é lançado visando o crescimento e a 
 
 -   Foi adicionado um botão com a informação do tipo sanguíneo.
 -   Uma tabela informativa sobre as doações sanguíneas foi criada, esclarecendo quem pode doar para quem.
--   Além disso, foi desenvolvida uma funcionalidade de "mouseover" e "mouseout", que ao passar o mouse sobre botão tipo sanguíneo, a tabela que detalha as doações sanguíneas é exibida.
+-   Além disso, foi desenvolvida uma funcionalidade de "mouseover" e "mouseout", que ao passar o mouse sobre o botão tipo sanguíneo, a tabela que detalha as doações sanguíneas é exibida.
 <p align="center">
     <img alt="projeto DevLinks" src=".github/tabela-aborh.png" width="100%">
 </p>
